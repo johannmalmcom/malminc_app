@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <header>
+            <h1>Application</h1>
+        </header>
+        
+        {% block content %}{% endblock %}
+        
+        <footer>
+            <p>Copyright 2020 Everyone</p>
+        </footer>
+    </body>
+</html>
